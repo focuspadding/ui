@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>聊天室</title>
+		@@include("./global/head.html")
+	</head>
+	<body>
+		@@include("./components/header.html")
+		
+		@@include("./components/footer.html")
+	</body>
+	<script src="/static/js/layui.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		layui.use(['public/js/index'],function(){
+			console.log("run");
+		});
+	</script>
+</html>
